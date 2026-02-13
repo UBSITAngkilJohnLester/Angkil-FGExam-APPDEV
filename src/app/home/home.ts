@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
-
+  name : string = "John Lester P. Angkil";
+  age : number = 20;
+  section : string = "IDB3";
+  yes : boolean = true;
 }
